@@ -1,0 +1,74 @@
+#input-task {
+    width: 100%;
+    align-items: center;
+    height: 30vh;
+}
+
+.form {
+    width: 100%;
+}
+
+.btn-success {
+    margin: 5px;
+    width: 120px;
+}
+
+.btn-danger {
+    margin: 5px;
+    width: 120px;
+}
+
+.display-4 {
+    padding-left: 12px;
+}
+
+.row {
+    width: 100%
+}
+
+.form-control:disabled, .form-control[readonly] {
+    background-color: white;
+    border: white
+}
+
+
+.form-row {
+    width: 100vh;
+}
+
+.table td {
+    min-width: 90px;
+}
+
+.mb-2, .my-2 {
+    margin-bottom: 0.5rem !important;
+    margin-top: 31px;
+}
+
+tr:nth-child(1) {
+    text-align: justify;
+}
+
+tr:nth-child(2) {
+    text-align: justify;
+}
+
+.info-task {
+    padding: 22px
+}
+
+.status-finished {
+    color:#36d436; 
+    font-weight:bold; 
+    text-align:left
+}
+
+.status-ongoing {
+    color:orange; 
+    font-weight:bold; 
+    text-align:left
+}
+
+.react-logo{
+    width: 120px;
+}
