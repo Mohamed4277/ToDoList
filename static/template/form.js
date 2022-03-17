@@ -9,7 +9,7 @@ function displayForm() {
             </div>
             <div class="form-group col-md-6">
                 <label for="dateDeadLine">Deadline</label>
-                <input type="date" class="form-control" id="dateDeadLine" name="dateDeadLine"  value=${DateDay()} min=${DateDay()} max="2040-01-01">
+                <input type="date" required class="form-control" id="dateDeadLine" name="dateDeadLine"  value=${dateDay()} min=${dateDay()} max="2040-01-01">
             </div>
         </div>
         <div class="form-row">
@@ -25,7 +25,7 @@ function displayForm() {
 }
 
 // Day date
-function DateDay() {
+function dateDay() {
     let inputFormat = Date();
     function pad(s) { return (s < 10) ? '0' + s : s; }
     var d = new Date(inputFormat)
@@ -33,5 +33,7 @@ function DateDay() {
 }
 
 module.exports = {
+    dateDay,
     displayForm
+
 }

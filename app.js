@@ -29,6 +29,7 @@ app.get('/', (req, res) => {
   )
 })
 
+//Json by react component
 app.get('/to-do-list-react', (req, res) => {
   db.dbGetTasks(
     function (error, results, fields) {
