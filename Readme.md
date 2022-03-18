@@ -35,6 +35,11 @@ L'application "todoList" apparraitra à l'url localhost:3000/
 
 Pour l'application React, il faudra utiliser localhost:3000/react.html
 
+## Lancer les tests
+
+- Node ./static/templateSSR/formTest.js
+- Node ./static/templateSSR/tableTest.js
+
 ## Lancer le test cypress
 
 - Lancer nodemon app.js (ou Node app.js), 
