@@ -1,7 +1,7 @@
 var cors = require('cors');
 const express = require('express')
 const db = require('./src/dbUtils')
-const pagehtmlToDoList = require('./static/template/pageToDoList')
+const pagehtmlToDoList = require('./static/templateSSR/pageToDoList')
 const app = express()
 const port = 3000
 
