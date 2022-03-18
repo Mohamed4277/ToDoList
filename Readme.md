@@ -28,8 +28,8 @@ Créer une base de donnée 'todolist' et y mettre la table:
 
 ## Utilisation
 
-npm install
-nodemon app.js
+- Lancer npm install
+- puis nodemon app.js (ou Node app.js)
 
 L'application "todoList" apparraitra à l'url localhost:3000/
 
@@ -37,4 +37,5 @@ Pour l'application React, il faudra utiliser localhost:3000/react.html
 
 ## Lancer le test cypress
 
-lancer nodemon app.js, puis ouvrir un autre terminal et taper: npx cypress open
+- Lancer nodemon app.js (ou Node app.js), 
+- puis ouvrir un autre terminal et taper: npx cypress open
