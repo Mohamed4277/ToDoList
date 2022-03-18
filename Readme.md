@@ -37,4 +37,4 @@ Pour l'application React, il faudra utiliser localhost:3000/react.html
 
 ## Lancer le test cypress
 
-lancer nodemon app.js puis ouvrer un autre terminal puis taper: npx cypress open
+lancer nodemon app.js, puis ouvrir un autre terminal et taper: npx cypress open
