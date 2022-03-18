@@ -1,11 +1,11 @@
-var cors = require('cors');
+const cors = require('cors')
 const express = require('express')
 const db = require('./src/dbUtils')
 const pagehtmlToDoList = require('./static/templateSSR/pageToDoList')
 const app = express()
 const port = 3000
 
-app.use(cors());
+app.use(cors())
 
 app.listen(port, () => {
   console.log(`App listening on port ${port}`)
@@ -29,7 +29,7 @@ app.get('/', (req, res) => {
   )
 })
 
-//Json by react component
+//Json for react component
 app.get('/to-do-list-react', (req, res) => {
   db.dbGetTasks(
     function (error, results, fields) {
