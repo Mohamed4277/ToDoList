@@ -27,6 +27,8 @@ nodemon app.js
 
 L'application "todoList" apparraitra à l'url localhost:3000/
 
+Pour l'application React, il faudra utiliser localhost:3000/react.html
+
 ## lancer le test cypress
 
 nodemon app.js puis npx cypress open

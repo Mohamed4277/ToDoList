@@ -1,4 +1,4 @@
-        // Composant Header
+        // Header component
         function DisplayHeader(props) {
             return (<div className="jumbotron jumbotron-fluid col-12">
                 <h1 className="display-4">
@@ -8,7 +8,7 @@
             </div>)
         }
 
-        // Composant Table
+        // Table component
         function Table(props) {
             return (
                 <table className="table">
@@ -44,7 +44,7 @@
                 </table>)
         }
 
-        // Composant Page
+        // Page component
         function Page(props) {
             return (<div className="container">
                 <DisplayHeader />
