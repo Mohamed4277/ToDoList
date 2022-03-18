@@ -4,11 +4,11 @@ Projet "To do list" qui permet de gérer une liste de taches et enregistrer ces 
 
 ## Modules necessaires
 
-    - nodemon (globalement), 
-    - express, 
-    - mysql, 
-    - cypress,
-    - et cors
+- nodemon (globalement), 
+- express, 
+- mysql, 
+- cypress,
+- et cors
 
 ## Créer une base de données sous Mysql
 
