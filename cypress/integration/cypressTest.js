@@ -1,4 +1,4 @@
-const dateUtil=require('../../static/template/form')
+const dateUtil=require('../../static/templateSSR/form')
 
 it('visits base url', () => {
     cy.visit('/') 
